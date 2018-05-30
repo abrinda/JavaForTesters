@@ -98,4 +98,14 @@ public class ClassExample {
         assertEquals(9000000000L, aLongHas8Bytes);
     }
 
+    @Test
+    public void traditionalOperatorsExplored(){
+        assertEquals(4, 2+2);
+        assertEquals(5L, 10L - 5L);
+        assertEquals(25.0F, 12.5F * 2, 0);
+        assertEquals(30.2D, 120.8D / 4D, 0);
+        assertEquals("abcdef", "abc" + "def");
+        assertEquals(1, 9%2);
+    }
+
 }
