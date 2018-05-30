@@ -108,4 +108,39 @@ public class ClassExample {
         assertEquals(1, 9%2);
     }
 
+    @Test
+    public void assignmentOperatorsExplored(){
+        String ab = "ab";
+        assertEquals("ab", ab);
+
+        int num = 10;
+        assertEquals(10, num);
+
+        num += 2;
+        assertEquals("+= increments by", 12, num);
+
+        num -= 4;
+        assertEquals("-= decrements by", 8, num);
+
+        num *= 2;
+        assertEquals("*= multiplies by", 16, num);
+
+        num /= 8;
+        assertEquals("/= divides by", 2, num);
+
+        num %=1;
+        assertEquals("%= modulus of", 0, num);
+    }
+
+    @Test
+    public void incrementDecrementOperatorsExplored(){
+        int num = 10;
+        assertEquals(11, ++num);
+        assertEquals(10, --num);
+        assertEquals(10, num++);
+        assertEquals(11, num);
+        assertEquals(11, num--);
+        assertEquals(10, num);
+    }
+
 }
