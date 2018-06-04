@@ -12,21 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClassExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/basicsofjavarevisited/examples/ClassExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2431">
-              <caret line="147" column="19" lean-forward="false" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SelectionsExamples.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/selectionsanddecisions/examples/SelectionsExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="78" column="16" lean-forward="true" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
+            <state relative-caret-position="111">
+              <caret line="236" column="19" lean-forward="true" selection-start-line="236" selection-start-column="19" selection-end-line="236" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#317#318#0" expanded="true" />
@@ -176,6 +166,15 @@
               <item name="javafortesters" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaForTesters" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaForTesters" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javafortesters" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -202,8 +201,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SelectionsExamples.thruthyTrue">
-    <configuration name="SelectionsExamples.catOrCats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SelectionsExamples.switchOnInt">
+    <configuration name="SelectionsExamples.ifElseNestedAddHttp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.javafortesters.selectionsanddecisions.examples.*" />
@@ -215,7 +214,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.javafortesters.selectionsanddecisions.examples" />
       <option name="MAIN_CLASS_NAME" value="com.javafortesters.selectionsanddecisions.examples.SelectionsExamples" />
-      <option name="METHOD_NAME" value="catOrCats" />
+      <option name="METHOD_NAME" value="ifElseNestedAddHttp" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -228,7 +227,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="SelectionsExamples.catOrCatsMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectionsExamples.nestedIfElseHorror" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.javafortesters.selectionsanddecisions.examples.*" />
@@ -240,7 +239,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.javafortesters.selectionsanddecisions.examples" />
       <option name="MAIN_CLASS_NAME" value="com.javafortesters.selectionsanddecisions.examples.SelectionsExamples" />
-      <option name="METHOD_NAME" value="catOrCatsMethod" />
+      <option name="METHOD_NAME" value="nestedIfElseHorror" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -253,7 +252,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="SelectionsExamples.ifAddHttp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectionsExamples.switchExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.javafortesters.selectionsanddecisions.examples.*" />
@@ -265,7 +264,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.javafortesters.selectionsanddecisions.examples" />
       <option name="MAIN_CLASS_NAME" value="com.javafortesters.selectionsanddecisions.examples.SelectionsExamples" />
-      <option name="METHOD_NAME" value="ifAddHttp" />
+      <option name="METHOD_NAME" value="switchExample" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -278,7 +277,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="SelectionsExamples.moreTernary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectionsExamples.switchOnInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.javafortesters.selectionsanddecisions.examples.*" />
@@ -290,7 +289,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.javafortesters.selectionsanddecisions.examples" />
       <option name="MAIN_CLASS_NAME" value="com.javafortesters.selectionsanddecisions.examples.SelectionsExamples" />
-      <option name="METHOD_NAME" value="moreTernary" />
+      <option name="METHOD_NAME" value="switchOnInt" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -303,7 +302,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="SelectionsExamples.thruthyTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectionsExamples.switchOnShortCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.javafortesters.selectionsanddecisions.examples.*" />
@@ -315,7 +314,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.javafortesters.selectionsanddecisions.examples" />
       <option name="MAIN_CLASS_NAME" value="com.javafortesters.selectionsanddecisions.examples.SelectionsExamples" />
-      <option name="METHOD_NAME" value="thruthyTrue" />
+      <option name="METHOD_NAME" value="switchOnShortCode" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -410,19 +409,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.SelectionsExamples.moreTernary" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SelectionsExamples.catOrCats" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SelectionsExamples.catOrCatsMethod" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SelectionsExamples.ifAddHttp" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SelectionsExamples.thruthyTrue" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.SelectionsExamples.ifElseNestedAddHttp" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SelectionsExamples.nestedIfElseHorror" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SelectionsExamples.switchExample" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SelectionsExamples.switchOnShortCode" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SelectionsExamples.switchOnInt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SelectionsExamples.thruthyTrue" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SelectionsExamples.ifAddHttp" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SelectionsExamples.catOrCatsMethod" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SelectionsExamples.catOrCats" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SelectionsExamples.moreTernary" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SelectionsExamples.switchOnInt" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SelectionsExamples.switchOnShortCode" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SelectionsExamples.switchExample" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SelectionsExamples.nestedIfElseHorror" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SelectionsExamples.ifElseNestedAddHttp" />
       </list>
     </recent_temporary>
   </component>
@@ -440,35 +439,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClassExample_someStringMethods - 2018.05.31 at 15h 18m 56s.xml">
-      <configuration name="ClassExample.someStringMethods" configurationId="JUnit" />
+    <history-entry file="SelectionsExamples_ifElseNestedAddHttp - 2018.06.04 at 13h 06m 23s.xml">
+      <configuration name="SelectionsExamples.ifElseNestedAddHttp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClassExample_someStringMethods - 2018.05.31 at 15h 19m 12s.xml">
-      <configuration name="ClassExample.someStringMethods" configurationId="JUnit" />
+    <history-entry file="SelectionsExamples_ifElseNestedAddHttp - 2018.06.04 at 13h 06m 46s.xml">
+      <configuration name="SelectionsExamples.ifElseNestedAddHttp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClassExample_stringConcatenated - 2018.05.31 at 15h 06m 45s.xml">
-      <configuration name="ClassExample.stringConcatenated" configurationId="JUnit" />
+    <history-entry file="SelectionsExamples_ifElseNestedAddHttp - 2018.06.04 at 13h 53m 51s.xml">
+      <configuration name="SelectionsExamples.ifElseNestedAddHttp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelectionsExamples_catOrCats - 2018.05.31 at 16h 57m 06s.xml">
-      <configuration name="SelectionsExamples.catOrCats" configurationId="JUnit" />
+    <history-entry file="SelectionsExamples_ifElseNestedAddHttp - 2018.06.04 at 13h 55m 08s.xml">
+      <configuration name="SelectionsExamples.ifElseNestedAddHttp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelectionsExamples_catOrCats - 2018.05.31 at 16h 58m 13s.xml">
-      <configuration name="SelectionsExamples.catOrCats" configurationId="JUnit" />
+    <history-entry file="SelectionsExamples_ifElseNestedAddHttp - 2018.06.04 at 13h 55m 17s.xml">
+      <configuration name="SelectionsExamples.ifElseNestedAddHttp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelectionsExamples_catOrCats - 2018.05.31 at 17h 01m 46s.xml">
-      <configuration name="SelectionsExamples.catOrCats" configurationId="JUnit" />
+    <history-entry file="SelectionsExamples_nestedIfElseHorror - 2018.06.04 at 14h 22m 15s.xml">
+      <configuration name="SelectionsExamples.nestedIfElseHorror" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelectionsExamples_catOrCatsMethod - 2018.05.31 at 17h 08m 22s.xml">
-      <configuration name="SelectionsExamples.catOrCatsMethod" configurationId="JUnit" />
+    <history-entry file="SelectionsExamples_switchExample - 2018.06.04 at 14h 43m 49s.xml">
+      <configuration name="SelectionsExamples.switchExample" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelectionsExamples_ifAddHttp - 2018.05.31 at 17h 17m 18s.xml">
-      <configuration name="SelectionsExamples.ifAddHttp" configurationId="JUnit" />
+    <history-entry file="SelectionsExamples_switchExample - 2018.06.04 at 15h 05m 21s.xml">
+      <configuration name="SelectionsExamples.switchExample" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelectionsExamples_moreTernary - 2018.05.31 at 16h 50m 42s.xml">
-      <configuration name="SelectionsExamples.moreTernary" configurationId="JUnit" />
+    <history-entry file="SelectionsExamples_switchOnInt - 2018.06.04 at 15h 16m 26s.xml">
+      <configuration name="SelectionsExamples.switchOnInt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelectionsExamples_thruthyTrue - 2018.05.31 at 17h 20m 45s.xml">
-      <configuration name="SelectionsExamples.thruthyTrue" configurationId="JUnit" />
+    <history-entry file="SelectionsExamples_switchOnShortCode - 2018.06.04 at 15h 05m 26s.xml">
+      <configuration name="SelectionsExamples.switchOnShortCode" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -483,11 +482,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27201784" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1881663" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1881663" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -507,7 +506,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -538,7 +537,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/basicsofjavarevisited/examples/ClassExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2431">
+        <state relative-caret-position="1216">
           <caret line="147" column="19" lean-forward="false" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
           <folding />
         </state>
@@ -546,8 +545,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/selectionsanddecisions/examples/SelectionsExamples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="78" column="16" lean-forward="true" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
+        <state relative-caret-position="111">
+          <caret line="236" column="19" lean-forward="true" selection-start-line="236" selection-start-column="19" selection-end-line="236" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#317#318#0" expanded="true" />
