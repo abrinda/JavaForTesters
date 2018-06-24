@@ -13,6 +13,11 @@ public class ArraysExamples {
     String[] workdays = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
     String days = "";
 
+    int[][] multi = {{1,2,3,4},
+            {4,5,6,7},
+            {8,9,10,11},
+            {12,13,14,15}};
+
     @Test
     public void simpleArrayExample(){
         String[] number0123 = {"zero", "one", "two", "three"};
@@ -183,5 +188,60 @@ public class ArraysExamples {
         assertEquals(workdays[1], "Tuesday");//prima data sorteaza cele cu uppercase
 
         System.out.println(Arrays.toString(workdays));
+    }
+
+    @Test
+    public void regularMultiDimensionalArray(){
+        int[][] multi = new int[4][4];
+
+        assertEquals(4, multi.length);
+
+        System.out.println(Arrays.deepToString(multi));
+    }
+
+    @Test
+    public void regularMultiDimensionalArray_partTwo(){
+        int[][] multi = {{1,2,3,4},
+                {4,5,6,7},
+                {8,9,10,11},
+                {12,13,14,15}};
+
+        assertEquals(1, multi[0][0]);
+        assertEquals(11, multi[2][3]);
+    }
+
+    @Test
+    public void raggedArrays(){
+        int[][] ragged = {{1,2,3},
+                {4,5},
+                {6,7,8,9}};
+
+        assertEquals(4, ragged[1][0]);
+    }
+
+    //excercises
+    @Test
+    public void createTriangle2DArray(){
+        int[][] triangle = new int [16][];
+        for(int row=0; row<triangle.length; row++) {
+            triangle[row] = new int[row + 1];
+            for (int i=0;i<(row+1);i++){
+                triangle[row][i]=i;
+            }
+        }
+        print2DIntArray(triangle);
+    }
+
+    public void print2DIntArray(int[][] triangle) {
+        for(int[] outer : multi){
+            if (outer==null){
+                System.out.println("null");
+            }else{
+                for(int inner : outer){
+                    System.out.println(inner + ",");
+                }
+            }
+            System.out.println("");
+        }
     }
 }
