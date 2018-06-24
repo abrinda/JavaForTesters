@@ -112,11 +112,76 @@ public class ArraysExamples {
     }
 
     @Test
-    public void weekDays() {
-        String[] weekDays = new String[0];
-        Arrays.copyOf(workdays, 7);
+    public void copyOfToAddMoreDays() {
+        String[] workdays = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
+        String[] weekDays;
+        weekDays = Arrays.copyOf(workdays, 7);
         weekDays[5] = "Saturday";
         weekDays[6] = "Sunday";
-        
+
+        assertEquals("Saturday", weekDays[5]);
+        assertEquals("Sunday", weekDays[6]);
+    }
+
+    @Test
+    public void copyOfToTruncateTheDays(){
+        String[] workdays = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
+        String[] weekDays;
+        weekDays = Arrays.copyOf(workdays, 3);
+
+        assertEquals(3, weekDays.length);
+    }
+
+    @Test
+    public void copyOfRangeWeekDays(){
+        String[] workdays = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
+        String[] weekDays;
+        weekDays = Arrays.copyOfRange(workdays, 2, 5);
+
+        assertEquals(3, weekDays.length);
+        assertEquals(workdays[2], weekDays[0]);
+        assertEquals(workdays[3], weekDays[1]);
+        assertEquals(workdays[4], weekDays[2]);
+        assertEquals("Wednesday", weekDays[0]);
+        assertEquals("Friday", weekDays[2]);
+    }
+
+    @Test
+    public void sortItemsInAnArray(){
+        int[] outOfOrder = {2,1,4,3,5};
+        Arrays.sort(outOfOrder);
+
+        assertEquals(outOfOrder[0], 1);
+        assertEquals(outOfOrder[1], 2);
+        assertEquals(outOfOrder[4], 5);
+    }
+
+    @Test
+    public void fillItemsInAnArray(){
+        int[] tenItems = {0,0,0,0,0,1,1,1,1,1};
+        Arrays.fill(tenItems,2,7,2);
+
+        assertEquals(tenItems[3], 2);
+    }
+
+    @Test
+    public void sortWorkDaysArray(){
+        String[] workdays = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
+        Arrays.sort(workdays);
+
+        assertEquals(workdays[0], "Friday");
+
+
+        System.out.println(Arrays.toString(workdays));
+    }
+
+    @Test
+    public void sortWorkDaysArrayWithLowercase(){
+        String[] workdays = {"monday", "Tuesday", "wednesday", "Thursday", "friday"};
+        Arrays.sort(workdays);
+
+        assertEquals(workdays[1], "Tuesday");//prima data sorteaza cele cu uppercase
+
+        System.out.println(Arrays.toString(workdays));
     }
 }
