@@ -28,12 +28,12 @@ public class ClassExample {
 
 
     @Test
-    public void variableNaming(){
-        String $aString="bob";
-        float £owed=10F;
-        int aMount=4;
-        long Amount=5;
-        String A01234567890bCd$f="ugh";
+    public void variableNaming() {
+        String $aString = "bob";
+        float £owed = 10F;
+        int aMount = 4;
+        long Amount = 5;
+        String A01234567890bCd$f = "ugh";
 
         assertEquals(4, aMount);
         assertEquals(5, Amount);
@@ -43,7 +43,7 @@ public class ClassExample {
     }
 
     @Test
-    public void booleanType(){
+    public void booleanType() {
         boolean truthy = true;
         boolean falsey = false;
 
@@ -59,7 +59,7 @@ public class ClassExample {
     }
 
     @Test
-    public void IntegerTypes(){
+    public void IntegerTypes() {
         byte aByteHas1Byte;
         short aShortHas2Bytes;
         int anIntHas4Bytes;
@@ -99,17 +99,17 @@ public class ClassExample {
     }
 
     @Test
-    public void traditionalOperatorsExplored(){
-        assertEquals(4, 2+2);
+    public void traditionalOperatorsExplored() {
+        assertEquals(4, 2 + 2);
         assertEquals(5L, 10L - 5L);
         assertEquals(25.0F, 12.5F * 2, 0);
         assertEquals(30.2D, 120.8D / 4D, 0);
         assertEquals("abcdef", "abc" + "def");
-        assertEquals(1, 9%2);
+        assertEquals(1, 9 % 2);
     }
 
     @Test
-    public void assignmentOperatorsExplored(){
+    public void assignmentOperatorsExplored() {
         String ab = "ab";
         assertEquals("ab", ab);
 
@@ -128,12 +128,12 @@ public class ClassExample {
         num /= 8;
         assertEquals("/= divides by", 2, num);
 
-        num %=1;
+        num %= 1;
         assertEquals("%= modulus of", 0, num);
     }
 
     @Test
-    public void incrementDecrementOperatorsExplored(){
+    public void incrementDecrementOperatorsExplored() {
         int num = 10;
         assertEquals(11, ++num);
         assertEquals(10, --num);
@@ -141,6 +141,40 @@ public class ClassExample {
         assertEquals(11, num);
         assertEquals(11, num--);
         assertEquals(10, num);
+    }
+
+    @Test
+    public void booleanOperatorsExplored() {
+        assertTrue(4 == 4);
+        assertTrue(4 != 5);
+        assertTrue(3 < 4);
+        assertTrue(4 > 3);
+        assertTrue(5 >= 5);
+        assertTrue(5 >= 4);
+        assertTrue(7 <= 7);
+        assertTrue(6 <= 9);
+        assertTrue(!false);
+        boolean thruthy = true;
+        assertFalse(!thruthy);
+    }
+
+    @Test
+    public void conditionalOperatorsExplored() {
+        assertTrue(true && true);
+        assertTrue(true || false);
+        assertTrue(false || true);
+        assertFalse(false && false);
+        assertFalse(true && false);
+        assertFalse(false || false);
+    }
+
+    @Test
+    public void ternaryOperatorsExplored() {
+        int x;
+        x = 4 > 3 ? 5 : 1;
+        assertEquals(5, x);
+
+        assertTrue(5 > 4 ? true : true);
     }
 
 }
