@@ -4,15 +4,19 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.List;
 
 import static junit.framework.TestCase.assertEquals;
 import static junit.framework.TestCase.assertFalse;
+import static junit.framework.TestCase.assertTrue;
 
 public class CollectionsExamples {
 
     String[] someDays = {"Tuesday", "Thursday", "Wednesday", "Monday", "Saturday", "Sunday", "Friday"};
     List<String> days = Arrays.asList(someDays);
+    String[] workingDays = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
+    List<String> workdays = Arrays.asList(workingDays);
 
     @Test
     public void simpleArrayExample() {
@@ -58,7 +62,7 @@ public class CollectionsExamples {
     public void simpleForEachLoopExample() {
         int forcount = 0;
         for (String day : days) {
-            if (day.equals("Monday")) {
+            if (day.equals("Monday")){
                 break;
             }
             forcount++;
@@ -69,13 +73,13 @@ public class CollectionsExamples {
 
     @Test
     public void simpleForLoopExample(){
-        int loopCount = 0;
-        for (loopCount=0; loopCount <= days.size();loopCount++){
-            if (days.get(loopCount).equals("Monday")){
+        int loopCount;
+        for (loopCount=0; loopCount <= days.size();loopCount++) {
+            if (days.get(loopCount).equals("Monday"));{
                 break;
             }
-            assertEquals("Monday is at position 3", 3, loopCount);
         }
+            assertEquals("Monday is at position 3", 3, loopCount);
     }
 
     @Test
@@ -97,4 +101,80 @@ public class CollectionsExamples {
 
         assertEquals("Monday is at position 3", 3, docount);
     }
+
+    @Test
+    public void useAForLoopInsteadOfADoWhileLoop(){
+        int forwhile=0;
+        for (forwhile=0; days.get(forwhile).equals("Monday"); forwhile++)
+
+        assertEquals("Monday is at position 3", 3, forwhile);
+    }
+
+    @Test
+    public void addElementsToACollection(){
+        Collection<String> workdays = new <String>ArrayList();
+
+        workdays.add("Monday");
+        workdays.add("Tuesday");
+        workdays.add("Wednesday");
+        workdays.add("Thursday");
+        workdays.add("Friday");
+
+        assertEquals(5, workdays.size());
+    }
+
+    @Test
+    public void addAllElementsToACollection(){
+        Collection<String> daysOfWeek = new ArrayList<>();
+        daysOfWeek.addAll(workdays);
+
+        assertEquals(workdays.size(), daysOfWeek.size());
+        assertTrue(daysOfWeek.containsAll(workdays));
+    }
+
+    @Test
+    public void removeSomeElementsFromACollection(){
+        Collection<String> daysOfWeekend = new ArrayList<>();
+
+        daysOfWeekend.add("Saturday");
+        daysOfWeekend.add("Sunday");
+        daysOfWeekend.add("Funday");
+
+        daysOfWeekend.remove("Funday");
+
+        assertEquals(2, daysOfWeekend.size());
+    }
+
+    @Test
+    public void iterateOverACollection(){
+        Collection<String> allDays = new ArrayList<>();
+        allDays.addAll(workdays);
+
+        allDays.add("Saturday");
+        allDays.add("Sunday");
+
+        for(String dayOfWeek : allDays){
+            System.out.println(dayOfWeek);
+        }
+    }
+
+    @Test
+    public void emptyACollection(){
+        Collection<String> allDays = new ArrayList<>();
+        allDays.addAll(workdays);
+
+        allDays.add("Saturday");
+        allDays.add("Sunday");
+
+        assertEquals(7, allDays.size());
+
+        allDays.clear();
+
+        assertEquals(0, allDays.size());
+        assertTrue(allDays.isEmpty());
+
+    }
+
+
+    
 }
