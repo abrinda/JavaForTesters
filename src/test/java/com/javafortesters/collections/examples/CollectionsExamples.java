@@ -15,8 +15,12 @@ public class CollectionsExamples {
 
     String[] someDays = {"Tuesday", "Thursday", "Wednesday", "Monday", "Saturday", "Sunday", "Friday"};
     List<String> days = Arrays.asList(someDays);
+
     String[] workingDays = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
     List<String> workdays = Arrays.asList(workingDays);
+
+    String[] weekendDays ={"Saturday", "Sunday"};
+    List<String> weekend = Arrays.asList(weekendDays);
 
     @Test
     public void simpleArrayExample() {
@@ -175,6 +179,126 @@ public class CollectionsExamples {
 
     }
 
+    @Test
+    public void retainAllCollection(){
+        Collection<String> daysOfWeek = new ArrayList<>();
+        daysOfWeek.addAll(workdays);
+        daysOfWeek.addAll(weekend);
 
-    
+        assertTrue(daysOfWeek.containsAll(workdays));
+        assertTrue(daysOfWeek.containsAll(weekend));
+
+        daysOfWeek.retainAll(weekend);
+
+        assertEquals("only weekend days", 2, daysOfWeek.size());
+
+        daysOfWeek.retainAll(workdays);
+
+        assertEquals("only working days", 5, workdays.size());
+        assertFalse(daysOfWeek.containsAll(workdays));
+        assertFalse(daysOfWeek.containsAll(weekend));
+    }
+
+    @Test
+    public void toArrayCollection(){
+        Object[] daysOfWeekArray = workdays.toArray();
+        assertEquals(5, daysOfWeekArray.length);
+
+        assertEquals("Monday".length(),((String) daysOfWeekArray[0]).length());
+    }
+
+    @Test
+    public void toArrayAnArrayCollection(){
+        String[] anotherArray = new String[workdays.size()];
+        workdays.toArray(anotherArray);
+
+        assertEquals("Monday".length(), anotherArray[0].length());
+    }
+
+    @Test
+    public void collectionOfUsersExcersise(){
+        Collection<String> users = new ArrayList<>();
+
+        assertTrue(users.isEmpty());
+        assertTrue(users.size()==0);
+
+        users.add("user1");
+        users.add("user2");
+
+        assertTrue(users.size()==2);
+        assertFalse(users.isEmpty());
+
+        Collection<String> secondUsers = new ArrayList<>();
+        secondUsers.add("user3");
+        secondUsers.add("user4");
+        users.addAll(secondUsers);
+
+        assertEquals(4, users.size());
+        assertTrue(users.containsAll(secondUsers));
+
+        users.removeAll(secondUsers);
+
+        assertEquals(2, users.size());
+        assertFalse(users.containsAll(secondUsers));
+
+        users.clear();
+
+        assertEquals(0, users.size());
+    }
+
+    @Test
+    public void getAnElementAtIndex(){
+        List<String> days = new ArrayList<>();
+
+        days.add("Monday");
+        days.add("Tuesday");
+        days.add("Wednesday");
+
+        assertEquals("Monday", days.get(0));
+        assertEquals("Tuesday", days.get(1));
+
+        days.remove(1);
+
+        assertEquals(2, days.size());
+        assertEquals("Wednesday", days.get(1));
+    }
+
+    @Test
+    public void addElementAtASpecificIndex(){
+        List<String> days = new ArrayList<>();
+
+        days.add("Monday");
+        days.add("Wednesday");
+        days.add("Saturday");
+
+        days.add(1, "Tuesday");
+        days.add(3, "Thursday");
+        days.add(4, "Friday");
+        days.add(6,"Sunday");
+
+        assertEquals(7, days.size());
+        assertEquals("Saturday", days.get(5));
+        assertEquals("Friday", days.get(4));
+    }
+
+    @Test
+    public void addListOfElementsAtASpecificIndex(){
+        List<String> days = new ArrayList<>();
+        List<String> missingDays = new ArrayList<>();
+
+        days.add("Monday");
+        days.add("Saturday");
+
+        assertEquals("Saturday", days.get(1));
+
+        missingDays.add("Tuesday");
+        missingDays.add("Wednesday");
+        missingDays.add("Thursday");
+        missingDays.add("Friday");
+
+        days.addAll(1, missingDays);
+
+        assertEquals(6, days.size());
+        assertEquals("Thursday", days.get(3) );
+    }
 }
