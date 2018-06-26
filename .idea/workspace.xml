@@ -44,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/collections/examples/CollectionsExamples.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="431">
-              <caret line="300" column="42" selection-start-line="300" selection-start-column="42" selection-end-line="300" selection-end-column="42" />
+              <caret line="347" column="8" selection-start-line="347" selection-start-column="8" selection-end-line="347" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1376#1384#0" expanded="true" />
@@ -210,35 +210,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CollectionsExamples.addListOfElementsAtASpecificIndex">
+  <component name="RunManager" selected="JUnit.CollectionsExamples.subListToCreateAPortionOfAList">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="CollectionsExamples.addElementAtASpecificIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaForTesters" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javafortesters.collections.examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.javafortesters.collections.examples" />
-      <option name="MAIN_CLASS_NAME" value="com.javafortesters.collections.examples.CollectionsExamples" />
-      <option name="METHOD_NAME" value="addElementAtASpecificIndex" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="CollectionsExamples.addListOfElementsAtASpecificIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaForTesters" />
@@ -263,7 +240,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CollectionsExamples.collectionOfUsersExcersise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CollectionsExamples.findTheIndexOfAnElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaForTesters" />
       <extension name="coverage">
         <pattern>
@@ -275,7 +252,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.javafortesters.collections.examples" />
       <option name="MAIN_CLASS_NAME" value="com.javafortesters.collections.examples.CollectionsExamples" />
-      <option name="METHOD_NAME" value="collectionOfUsersExcersise" />
+      <option name="METHOD_NAME" value="findTheIndexOfAnElement" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -286,7 +263,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CollectionsExamples.getAnElementAtIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CollectionsExamples.findTheIndexOfAnElement_andSetIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaForTesters" />
       <extension name="coverage">
         <pattern>
@@ -298,7 +275,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.javafortesters.collections.examples" />
       <option name="MAIN_CLASS_NAME" value="com.javafortesters.collections.examples.CollectionsExamples" />
-      <option name="METHOD_NAME" value="getAnElementAtIndex" />
+      <option name="METHOD_NAME" value="findTheIndexOfAnElement_andSetIndex" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -309,7 +286,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CollectionsExamples.toArrayAnArrayCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CollectionsExamples.lastIndexOfAnElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaForTesters" />
       <extension name="coverage">
         <pattern>
@@ -321,7 +298,30 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.javafortesters.collections.examples" />
       <option name="MAIN_CLASS_NAME" value="com.javafortesters.collections.examples.CollectionsExamples" />
-      <option name="METHOD_NAME" value="toArrayAnArrayCollection" />
+      <option name="METHOD_NAME" value="lastIndexOfAnElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CollectionsExamples.subListToCreateAPortionOfAList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaForTesters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javafortesters.collections.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.javafortesters.collections.examples" />
+      <option name="MAIN_CLASS_NAME" value="com.javafortesters.collections.examples.CollectionsExamples" />
+      <option name="METHOD_NAME" value="subListToCreateAPortionOfAList" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -384,19 +384,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CollectionsExamples.toArrayAnArrayCollection" />
-      <item itemvalue="JUnit.CollectionsExamples.collectionOfUsersExcersise" />
-      <item itemvalue="JUnit.CollectionsExamples.getAnElementAtIndex" />
-      <item itemvalue="JUnit.CollectionsExamples.addElementAtASpecificIndex" />
       <item itemvalue="JUnit.CollectionsExamples.addListOfElementsAtASpecificIndex" />
+      <item itemvalue="JUnit.CollectionsExamples.findTheIndexOfAnElement" />
+      <item itemvalue="JUnit.CollectionsExamples.lastIndexOfAnElement" />
+      <item itemvalue="JUnit.CollectionsExamples.findTheIndexOfAnElement_andSetIndex" />
+      <item itemvalue="JUnit.CollectionsExamples.subListToCreateAPortionOfAList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CollectionsExamples.subListToCreateAPortionOfAList" />
+        <item itemvalue="JUnit.CollectionsExamples.findTheIndexOfAnElement_andSetIndex" />
+        <item itemvalue="JUnit.CollectionsExamples.lastIndexOfAnElement" />
+        <item itemvalue="JUnit.CollectionsExamples.findTheIndexOfAnElement" />
         <item itemvalue="JUnit.CollectionsExamples.addListOfElementsAtASpecificIndex" />
-        <item itemvalue="JUnit.CollectionsExamples.addElementAtASpecificIndex" />
-        <item itemvalue="JUnit.CollectionsExamples.getAnElementAtIndex" />
-        <item itemvalue="JUnit.CollectionsExamples.collectionOfUsersExcersise" />
-        <item itemvalue="JUnit.CollectionsExamples.toArrayAnArrayCollection" />
       </list>
     </recent_temporary>
   </component>
@@ -414,35 +414,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CollectionsExamples_collectionOfUsersExcersise - 2018.06.26 at 13h 29m 18s.xml">
-      <configuration name="CollectionsExamples.collectionOfUsersExcersise" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CollectionsExamples_collectionOfUsersExcersise - 2018.06.26 at 13h 30m 03s.xml">
-      <configuration name="CollectionsExamples.collectionOfUsersExcersise" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CollectionsExamples_getAnElementAtIndex - 2018.06.26 at 13h 36m 11s.xml">
-      <configuration name="CollectionsExamples.getAnElementAtIndex" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CollectionsExamples_getAnElementAtIndex - 2018.06.26 at 13h 37m 10s.xml">
-      <configuration name="CollectionsExamples.getAnElementAtIndex" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CollectionsExamples_getAnElementAtIndex - 2018.06.26 at 13h 37m 25s.xml">
-      <configuration name="CollectionsExamples.getAnElementAtIndex" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CollectionsExamples_getAnElementAtIndex - 2018.06.26 at 13h 38m 27s.xml">
-      <configuration name="CollectionsExamples.getAnElementAtIndex" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CollectionsExamples_addElementAtASpecificIndex - 2018.06.26 at 13h 46m 01s.xml">
-      <configuration name="CollectionsExamples.addElementAtASpecificIndex" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CollectionsExamples_addElementAtASpecificIndex - 2018.06.26 at 13h 47m 28s.xml">
-      <configuration name="CollectionsExamples.addElementAtASpecificIndex" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CollectionsExamples_addElementAtASpecificIndex - 2018.06.26 at 13h 47m 58s.xml">
-      <configuration name="CollectionsExamples.addElementAtASpecificIndex" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CollectionsExamples_addListOfElementsAtASpecificIndex - 2018.06.26 at 13h 56m 12s.xml">
+    <history-entry file="CollectionsExamples_addListOfElementsAtASpecificIndex - 2018.06.26 at 13h 57m 52s.xml">
       <configuration name="CollectionsExamples.addListOfElementsAtASpecificIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionsExamples_addListOfElementsAtASpecificIndex - 2018.06.26 at 13h 58m 35s.xml">
+      <configuration name="CollectionsExamples.addListOfElementsAtASpecificIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionsExamples_findTheIndexOfAnElement - 2018.06.26 at 14h 06m 43s.xml">
+      <configuration name="CollectionsExamples.findTheIndexOfAnElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionsExamples_lastIndexOfAnElement - 2018.06.26 at 14h 12m 02s.xml">
+      <configuration name="CollectionsExamples.lastIndexOfAnElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionsExamples_findTheIndexOfAnElement_andSetIndex - 2018.06.26 at 14h 14m 33s.xml">
+      <configuration name="CollectionsExamples.findTheIndexOfAnElement_andSetIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionsExamples_findTheIndexOfAnElement_andSetIndex - 2018.06.26 at 14h 15m 24s.xml">
+      <configuration name="CollectionsExamples.findTheIndexOfAnElement_andSetIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionsExamples_findTheIndexOfAnElement_andSetIndex - 2018.06.26 at 14h 15m 53s.xml">
+      <configuration name="CollectionsExamples.findTheIndexOfAnElement_andSetIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionsExamples_findTheIndexOfAnElement_andSetIndex - 2018.06.26 at 14h 16m 15s.xml">
+      <configuration name="CollectionsExamples.findTheIndexOfAnElement_andSetIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionsExamples_findTheIndexOfAnElement_andSetIndex - 2018.06.26 at 14h 17m 23s.xml">
+      <configuration name="CollectionsExamples.findTheIndexOfAnElement_andSetIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionsExamples_findTheIndexOfAnElement_andSetIndex - 2018.06.26 at 14h 21m 14s.xml">
+      <configuration name="CollectionsExamples.findTheIndexOfAnElement_andSetIndex" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -969,7 +969,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/collections/examples/CollectionsExamples.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
-          <caret line="300" column="42" selection-start-line="300" selection-start-column="42" selection-end-line="300" selection-end-column="42" />
+          <caret line="347" column="8" selection-start-line="347" selection-start-column="8" selection-end-line="347" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1376#1384#0" expanded="true" />

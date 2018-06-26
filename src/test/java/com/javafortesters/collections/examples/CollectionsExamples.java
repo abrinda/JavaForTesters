@@ -301,4 +301,55 @@ public class CollectionsExamples {
         assertEquals(6, days.size());
         assertEquals("Thursday", days.get(3) );
     }
+
+    @Test
+    public void findTheIndexOfAnElement_andSetIndex(){
+        List<String> days = new ArrayList<>();
+
+        days.add("Monday");
+        days.add("Wednesday");
+        days.add("Saturday");
+
+        assertEquals(1, days.indexOf("Wednesday"));
+
+        days.set(2, "Tuesday");
+
+        assertEquals(3, days.size());
+        assertEquals("Monday", days.get(0));
+        assertEquals("Wednesday", days.get(1));
+    }
+
+    @Test
+    public void lastIndexOfAnElement(){
+        List<String> names = new ArrayList<>();
+
+        names.add("boss");
+        names.add("boss");
+        names.add("princess");
+        names.add("princess");
+        names.add("boss");
+        names.add("boss");
+        names.add("princess");
+        names.add("princess");
+        names.add("boss");
+        names.add("boss");
+
+        assertEquals(7, names.lastIndexOf("princess"));
+    }
+
+    @Test
+    public void subListToCreateAPortionOfAList(){
+        List<String> days = new ArrayList<>();
+
+        days.add("Monday");
+        days.add("Tuesday");
+        days.add("Wednesday");
+        days.add("Thursday");
+        days.add("Friday");
+
+        List<String> bestDays = days.subList(3,5);
+
+        assertEquals(2, bestDays.size());
+        assertEquals("Friday", bestDays.get(1));//e index 1 pentru ca e subList(deci e o noua lista)
+    }
 }
