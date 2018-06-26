@@ -1,11 +1,9 @@
 package com.javafortesters.collections.examples;
 
+import com.javafortesters.domainentities.User;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.List;
+import java.util.*;
 
 import static junit.framework.TestCase.assertEquals;
 import static junit.framework.TestCase.assertFalse;
@@ -351,5 +349,125 @@ public class CollectionsExamples {
 
         assertEquals(2, bestDays.size());
         assertEquals("Friday", bestDays.get(1));//e index 1 pentru ca e subList(deci e o noua lista)
+    }
+
+    @Test//exercitiu
+    public void createAndManipulateAListOfUsers(){
+        List<String> users = new ArrayList<>();
+
+        users.add("user1");
+        users.add("user2");
+
+        assertEquals(2, users.size());
+
+        users.add("user3");
+
+        assertEquals(3, users.size());
+
+        users.set(0, "user4");
+
+        assertEquals("user4", users.get(0));
+        assertEquals("user2", users.get(1));
+        assertEquals("user3", users.get(2));
+
+        users.remove(0);
+        System.out.println(users);
+
+        assertEquals(2, users.size());
+        assertEquals("user2", users.get(0));
+        assertEquals("user3", users.get(1));
+    }
+
+    @Test
+    public void setDoesNotAllowDuplicateElements(){
+        Set workdays = new HashSet();
+
+        workdays.add("monday");
+        workdays.add("tuesday");
+        workdays.add("monday");
+
+        assertEquals(2, workdays.size());
+    }
+
+    @Test//exercitiu
+    public void manipulateASetOfUsers(){
+        Set users = new HashSet();
+
+        users.add("boss");
+        assertEquals(1, users.size());
+
+        users.add("boss");
+        assertEquals(1, users.size());
+    }
+
+    @Test
+    public void putGetKeyAndValueInMap(){
+        Map<String, String> map = new HashMap<>();
+
+        map.put("ce", "vrei");
+        map.put("care", "este");
+        map.put("cine", "esti");
+
+        assertEquals(3, map.size());
+
+        map.put("ce", "doresti");
+
+        assertEquals("doresti", map.get("ce"));
+        assertEquals("este", map.get("care"));
+        assertEquals("esti", map.get("cine"));
+    }
+
+    @Test
+    public void removeAndEmptyKeyAndValueInMap(){
+        Map<String, String> fraze = new HashMap<>();
+
+        fraze.put("salut", "ba");
+        fraze.put("cf","boss");
+
+        assertEquals(2, fraze.size());
+
+        fraze.remove("salut");
+
+        assertEquals(1, fraze.size());
+
+        fraze.clear();
+
+        assertEquals(0, fraze.size());
+        assertTrue(fraze.isEmpty());
+    }
+
+    @Test
+    public void checkKeysAndValues_WithContainsKeyAndContainsValue(){
+        Map<String, String> salut = new HashMap<>();
+
+        salut.put("salut", "ro");
+        salut.put("ola", "es");
+        salut.put("hello", "en");
+
+        assertTrue(salut.containsKey("salut"));
+        assertFalse(salut.containsKey("buenos dia"));
+
+        assertTrue(salut.containsValue("es"));
+        assertFalse(salut.containsValue("ger"));
+    }
+
+    @Test
+    public void putAllAMapInTheMap(){
+        Map<String, String> saluturiRomania = new HashMap<>();
+        Map<String, String> saluturiStraine = new HashMap<>();
+
+        saluturiRomania.put("buna","Timisoara");
+        saluturiRomania.put("hei", "Bucuresti");
+
+        assertEquals(2, saluturiRomania.size());
+
+        saluturiStraine.put("hei", "Bucuresti");
+        saluturiStraine.put("hello", "UK");
+
+        assertEquals(2, saluturiStraine.size());
+
+        saluturiRomania.putAll(saluturiStraine);
+
+        assertEquals(3, saluturiRomania.size());
     }
 }
