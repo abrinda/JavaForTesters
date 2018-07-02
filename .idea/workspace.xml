@@ -12,27 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SelectionsExamples.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/selectionsanddecisions/examples/SelectionsExamples.java">
+      <file leaf-file-name="ExceptionsExamples.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/Exceptions/ExceptionsExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3885">
-              <caret line="259" column="5" selection-start-line="259" selection-start-column="5" selection-end-line="259" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#1259#1260#0" expanded="true" />
-                <element signature="e#1322#1323#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArraysExamples.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/arrays/examples/ArraysExamples.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="12" column="81" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="81" />
+            <state relative-caret-position="221">
+              <caret line="77" column="17" lean-forward="true" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,15 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CollectionsExamples.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/collections/examples/CollectionsExamples.java">
+      <file leaf-file-name="AnEmptyClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/basicsofjavarevisited/AnEmptyClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="461" column="46" selection-start-line="461" selection-start-column="46" selection-end-line="461" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1376#1384#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -56,7 +36,7 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="388">
               <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
               <folding>
                 <element signature="e#154#155#0" expanded="true" />
@@ -68,24 +48,6 @@
                 <element signature="e#489#490#0" expanded="true" />
                 <element signature="e#529#530#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestAppEnv.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/domainobject/TestAppEnv.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/domainentities/examples/UserTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -107,6 +69,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/javafortesters/arrays/examples/ArraysExamples.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/javafortesters/collections/examples.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/javafortesters/collections/examples/CollectionsExamples.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/javafortesters/Exceptions/ExceptionsExamples.java" />
       </list>
     </option>
   </component>
@@ -122,7 +85,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,6 +103,45 @@
               <item name="WorkSpace" type="b2602c69:ProjectViewProjectNode" />
               <item name="WorkSpace" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WorkSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorkSpace" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WorkSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorkSpace" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javafortesters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WorkSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorkSpace" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javafortesters" type="462c0819:PsiDirectoryNode" />
+              <item name="basicsofjavarevisited" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WorkSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorkSpace" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javafortesters" type="462c0819:PsiDirectoryNode" />
+              <item name="domainentities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WorkSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorkSpace" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -172,23 +175,13 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="javafortesters" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="javafortesters" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,7 +189,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -210,26 +203,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CollectionsExamples.putAllAMapInTheMap">
+  <component name="RunManager" selected="JUnit.ExceptionsExamples.nullPointerExceptionExpected">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="CollectionsExamples.checkKeysAndValues_WithContainsKeyAndContainsValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExceptionsExamples.catchANullPointerException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaForTesters" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javafortesters.collections.examples.*" />
+          <option name="PATTERN" value="com.javafortesters.Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.javafortesters.collections.examples" />
-      <option name="MAIN_CLASS_NAME" value="com.javafortesters.collections.examples.CollectionsExamples" />
-      <option name="METHOD_NAME" value="checkKeysAndValues_WithContainsKeyAndContainsValue" />
+      <option name="PACKAGE_NAME" value="com.javafortesters.Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="com.javafortesters.Exceptions.ExceptionsExamples" />
+      <option name="METHOD_NAME" value="catchANullPointerException" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -240,19 +233,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CollectionsExamples.putAllAMapInTheMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExceptionsExamples.catchMoreThanOneException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaForTesters" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javafortesters.collections.examples.*" />
+          <option name="PATTERN" value="com.javafortesters.Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.javafortesters.collections.examples" />
-      <option name="MAIN_CLASS_NAME" value="com.javafortesters.collections.examples.CollectionsExamples" />
-      <option name="METHOD_NAME" value="putAllAMapInTheMap" />
+      <option name="PACKAGE_NAME" value="com.javafortesters.Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="com.javafortesters.Exceptions.ExceptionsExamples" />
+      <option name="METHOD_NAME" value="catchMoreThanOneException" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -263,19 +256,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CollectionsExamples.putGetKeyAndValueInMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExceptionsExamples.nullPointerExceptionExpected" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaForTesters" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javafortesters.collections.examples.*" />
+          <option name="PATTERN" value="com.javafortesters.Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.javafortesters.collections.examples" />
-      <option name="MAIN_CLASS_NAME" value="com.javafortesters.collections.examples.CollectionsExamples" />
-      <option name="METHOD_NAME" value="putGetKeyAndValueInMap" />
+      <option name="PACKAGE_NAME" value="com.javafortesters.Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="com.javafortesters.Exceptions.ExceptionsExamples" />
+      <option name="METHOD_NAME" value="nullPointerExceptionExpected" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -286,19 +279,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CollectionsExamples.removeAndEmptyKeyAndValueInMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExceptionsExamples.useOfADifferentException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaForTesters" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javafortesters.collections.examples.*" />
+          <option name="PATTERN" value="com.javafortesters.Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.javafortesters.collections.examples" />
-      <option name="MAIN_CLASS_NAME" value="com.javafortesters.collections.examples.CollectionsExamples" />
-      <option name="METHOD_NAME" value="removeAndEmptyKeyAndValueInMap" />
+      <option name="PACKAGE_NAME" value="com.javafortesters.Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="com.javafortesters.Exceptions.ExceptionsExamples" />
+      <option name="METHOD_NAME" value="useOfADifferentException" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -309,19 +302,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CollectionsExamples.removeKeyAndValueInMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExceptionsExamples.useOfADifferentException_ArithmeticException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaForTesters" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javafortesters.collections.examples.*" />
+          <option name="PATTERN" value="com.javafortesters.Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.javafortesters.collections.examples" />
-      <option name="MAIN_CLASS_NAME" value="com.javafortesters.collections.examples.CollectionsExamples" />
-      <option name="METHOD_NAME" value="removeKeyAndValueInMap" />
+      <option name="PACKAGE_NAME" value="com.javafortesters.Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="com.javafortesters.Exceptions.ExceptionsExamples" />
+      <option name="METHOD_NAME" value="useOfADifferentException_ArithmeticException" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -384,19 +377,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CollectionsExamples.removeKeyAndValueInMap" />
-      <item itemvalue="JUnit.CollectionsExamples.putGetKeyAndValueInMap" />
-      <item itemvalue="JUnit.CollectionsExamples.removeAndEmptyKeyAndValueInMap" />
-      <item itemvalue="JUnit.CollectionsExamples.checkKeysAndValues_WithContainsKeyAndContainsValue" />
-      <item itemvalue="JUnit.CollectionsExamples.putAllAMapInTheMap" />
+      <item itemvalue="JUnit.ExceptionsExamples.catchANullPointerException" />
+      <item itemvalue="JUnit.ExceptionsExamples.useOfADifferentException_ArithmeticException" />
+      <item itemvalue="JUnit.ExceptionsExamples.useOfADifferentException" />
+      <item itemvalue="JUnit.ExceptionsExamples.catchMoreThanOneException" />
+      <item itemvalue="JUnit.ExceptionsExamples.nullPointerExceptionExpected" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CollectionsExamples.putAllAMapInTheMap" />
-        <item itemvalue="JUnit.CollectionsExamples.checkKeysAndValues_WithContainsKeyAndContainsValue" />
-        <item itemvalue="JUnit.CollectionsExamples.removeAndEmptyKeyAndValueInMap" />
-        <item itemvalue="JUnit.CollectionsExamples.removeKeyAndValueInMap" />
-        <item itemvalue="JUnit.CollectionsExamples.putGetKeyAndValueInMap" />
+        <item itemvalue="JUnit.ExceptionsExamples.nullPointerExceptionExpected" />
+        <item itemvalue="JUnit.ExceptionsExamples.catchMoreThanOneException" />
+        <item itemvalue="JUnit.ExceptionsExamples.useOfADifferentException" />
+        <item itemvalue="JUnit.ExceptionsExamples.catchANullPointerException" />
+        <item itemvalue="JUnit.ExceptionsExamples.useOfADifferentException_ArithmeticException" />
       </list>
     </recent_temporary>
   </component>
@@ -414,39 +407,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CollectionsExamples_putKeyAndValueInMap - 2018.06.26 at 15h 47m 13s.xml">
-      <configuration name="CollectionsExamples.putKeyAndValueInMap" configurationId="JUnit" />
+    <history-entry file="ExceptionsExamples_throwANullPointerException - 2018.06.26 at 17h 15m 02s.xml">
+      <configuration name="ExceptionsExamples.throwANullPointerException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionsExamples_putAndGetKeyAndValueInMap - 2018.06.26 at 15h 48m 43s.xml">
-      <configuration name="CollectionsExamples.putAndGetKeyAndValueInMap" configurationId="JUnit" />
+    <history-entry file="ExceptionsExamples_throwANullPointerException - 2018.06.26 at 17h 15m 23s.xml">
+      <configuration name="ExceptionsExamples.throwANullPointerException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionsExamples_putAndGetKeyAndValueInMap - 2018.06.26 at 15h 49m 13s.xml">
-      <configuration name="CollectionsExamples.putAndGetKeyAndValueInMap" configurationId="JUnit" />
+    <history-entry file="ExceptionsExamples_throwANullPointerException - 2018.06.26 at 17h 16m 09s.xml">
+      <configuration name="ExceptionsExamples.throwANullPointerException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionsExamples_removeKeyAndValueInMap - 2018.06.26 at 15h 53m 14s.xml">
-      <configuration name="CollectionsExamples.removeKeyAndValueInMap" configurationId="JUnit" />
+    <history-entry file="ExceptionsExamples_catchANullPointerException - 2018.07.02 at 11h 17m 35s.xml">
+      <configuration name="ExceptionsExamples.catchANullPointerException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionsExamples_putGetKeyAndValueInMap - 2018.06.26 at 15h 53m 17s.xml">
-      <configuration name="CollectionsExamples.putGetKeyAndValueInMap" configurationId="JUnit" />
+    <history-entry file="ExceptionsExamples_useOfADifferentException_ArithmeticException - 2018.07.02 at 11h 29m 33s.xml">
+      <configuration name="ExceptionsExamples.useOfADifferentException_ArithmeticException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionsExamples_removeKeyAndValueInMap - 2018.06.26 at 15h 53m 42s.xml">
-      <configuration name="CollectionsExamples.removeKeyAndValueInMap" configurationId="JUnit" />
+    <history-entry file="ExceptionsExamples_catchANullPointerException - 2018.07.02 at 11h 29m 58s.xml">
+      <configuration name="ExceptionsExamples.catchANullPointerException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionsExamples_removeAndEmptyKeyAndValueInMap - 2018.06.26 at 16h 38m 16s.xml">
-      <configuration name="CollectionsExamples.removeAndEmptyKeyAndValueInMap" configurationId="JUnit" />
+    <history-entry file="ExceptionsExamples_useOfADifferentException - 2018.07.02 at 11h 36m 59s.xml">
+      <configuration name="ExceptionsExamples.useOfADifferentException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionsExamples_removeAndEmptyKeyAndValueInMap - 2018.06.26 at 16h 38m 58s.xml">
-      <configuration name="CollectionsExamples.removeAndEmptyKeyAndValueInMap" configurationId="JUnit" />
+    <history-entry file="ExceptionsExamples_useOfADifferentException - 2018.07.02 at 11h 37m 16s.xml">
+      <configuration name="ExceptionsExamples.useOfADifferentException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionsExamples_checkKeysAndValues_WithContainsKeyAndContainsValue - 2018.06.26 at 16h 42m 22s.xml">
-      <configuration name="CollectionsExamples.checkKeysAndValues_WithContainsKeyAndContainsValue" configurationId="JUnit" />
+    <history-entry file="ExceptionsExamples_catchMoreThanOneException - 2018.07.02 at 11h 58m 19s.xml">
+      <configuration name="ExceptionsExamples.catchMoreThanOneException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionsExamples_checkKeysAndValues_WithContainsKeyAndContainsValue - 2018.06.26 at 16h 42m 58s.xml">
-      <configuration name="CollectionsExamples.checkKeysAndValues_WithContainsKeyAndContainsValue" configurationId="JUnit" />
+    <history-entry file="ExceptionsExamples_nullPointerExceptionExpected - 2018.07.02 at 13h 10m 08s.xml">
+      <configuration name="ExceptionsExamples.nullPointerExceptionExpected" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -455,46 +448,26 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" weight="0.32917705" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32917705" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32998884" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32998884" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19098713" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990025" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32998884" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32998884" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917705" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.27201784" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32917705" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32998884" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32998884" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19384836" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32998884" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19098713" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -502,18 +475,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="17" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/selectionsanddecisions/examples.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/basicsofjavarevisited/examples/ClassExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/selectionsanddecisions/examples/SelectionsExamples.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3885">
@@ -559,13 +524,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/collections/examples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/collections/examples.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/arrays/examples/ArraysExamples.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -582,7 +541,6 @@
           <caret line="98" column="5" lean-forward="true" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1376#1384#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -712,7 +670,6 @@
           <caret line="168" column="38" selection-start-line="168" selection-start-column="38" selection-end-line="168" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1376#1384#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -842,7 +799,6 @@
           <caret line="178" column="4" selection-start-line="178" selection-start-column="4" selection-end-line="178" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1376#1384#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -912,7 +868,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/selectionsanddecisions/examples/SelectionsExamples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3885">
+        <state relative-caret-position="3765">
           <caret line="259" column="5" selection-start-line="259" selection-start-column="5" selection-end-line="259" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -938,9 +894,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/collections/examples.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/arrays/examples/ArraysExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="81" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/collections/examples/CollectionsExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6975">
+          <caret line="472" column="1" selection-start-line="472" selection-start-column="1" selection-end-line="472" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/basicsofjavarevisited/AnEmptyClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="388">
           <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
           <folding>
             <element signature="e#154#155#0" expanded="true" />
@@ -955,24 +939,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/collections/examples.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/arrays/examples/ArraysExamples.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/Exceptions/ExceptionsExamples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="12" column="81" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="81" />
+        <state relative-caret-position="221">
+          <caret line="77" column="17" lean-forward="true" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/collections/examples/CollectionsExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="461" column="46" selection-start-line="461" selection-start-column="46" selection-end-line="461" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1376#1384#0" expanded="true" />
           </folding>
         </state>
       </provider>
