@@ -15,8 +15,8 @@
       <file leaf-file-name="ExceptionsExamples.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/Exceptions/ExceptionsExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="77" column="17" lean-forward="true" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
+            <state relative-caret-position="461">
+              <caret line="122" column="9" lean-forward="true" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -203,35 +203,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ExceptionsExamples.nullPointerExceptionExpected">
+  <component name="RunManager" selected="JUnit.ExceptionsExamples.exampleTryCatchFinally">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="ExceptionsExamples.catchANullPointerException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaForTesters" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javafortesters.Exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.javafortesters.Exceptions" />
-      <option name="MAIN_CLASS_NAME" value="com.javafortesters.Exceptions.ExceptionsExamples" />
-      <option name="METHOD_NAME" value="catchANullPointerException" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="ExceptionsExamples.catchMoreThanOneException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaForTesters" />
@@ -246,6 +223,29 @@
       <option name="PACKAGE_NAME" value="com.javafortesters.Exceptions" />
       <option name="MAIN_CLASS_NAME" value="com.javafortesters.Exceptions.ExceptionsExamples" />
       <option name="METHOD_NAME" value="catchMoreThanOneException" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ExceptionsExamples.exampleTryCatchFinally" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaForTesters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javafortesters.Exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.javafortesters.Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="com.javafortesters.Exceptions.ExceptionsExamples" />
+      <option name="METHOD_NAME" value="exampleTryCatchFinally" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -279,6 +279,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="ExceptionsExamples.tryCatchFinallyNullPointerException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaForTesters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javafortesters.Exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.javafortesters.Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="com.javafortesters.Exceptions.ExceptionsExamples" />
+      <option name="METHOD_NAME" value="tryCatchFinallyNullPointerException" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="ExceptionsExamples.useOfADifferentException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaForTesters" />
       <extension name="coverage">
@@ -292,29 +315,6 @@
       <option name="PACKAGE_NAME" value="com.javafortesters.Exceptions" />
       <option name="MAIN_CLASS_NAME" value="com.javafortesters.Exceptions.ExceptionsExamples" />
       <option name="METHOD_NAME" value="useOfADifferentException" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ExceptionsExamples.useOfADifferentException_ArithmeticException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaForTesters" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javafortesters.Exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.javafortesters.Exceptions" />
-      <option name="MAIN_CLASS_NAME" value="com.javafortesters.Exceptions.ExceptionsExamples" />
-      <option name="METHOD_NAME" value="useOfADifferentException_ArithmeticException" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -377,19 +377,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ExceptionsExamples.catchANullPointerException" />
-      <item itemvalue="JUnit.ExceptionsExamples.useOfADifferentException_ArithmeticException" />
       <item itemvalue="JUnit.ExceptionsExamples.useOfADifferentException" />
       <item itemvalue="JUnit.ExceptionsExamples.catchMoreThanOneException" />
       <item itemvalue="JUnit.ExceptionsExamples.nullPointerExceptionExpected" />
+      <item itemvalue="JUnit.ExceptionsExamples.tryCatchFinallyNullPointerException" />
+      <item itemvalue="JUnit.ExceptionsExamples.exampleTryCatchFinally" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExceptionsExamples.exampleTryCatchFinally" />
+        <item itemvalue="JUnit.ExceptionsExamples.tryCatchFinallyNullPointerException" />
         <item itemvalue="JUnit.ExceptionsExamples.nullPointerExceptionExpected" />
         <item itemvalue="JUnit.ExceptionsExamples.catchMoreThanOneException" />
         <item itemvalue="JUnit.ExceptionsExamples.useOfADifferentException" />
-        <item itemvalue="JUnit.ExceptionsExamples.catchANullPointerException" />
-        <item itemvalue="JUnit.ExceptionsExamples.useOfADifferentException_ArithmeticException" />
       </list>
     </recent_temporary>
   </component>
@@ -407,9 +407,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExceptionsExamples_throwANullPointerException - 2018.06.26 at 17h 15m 02s.xml">
-      <configuration name="ExceptionsExamples.throwANullPointerException" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ExceptionsExamples_throwANullPointerException - 2018.06.26 at 17h 15m 23s.xml">
       <configuration name="ExceptionsExamples.throwANullPointerException" configurationId="JUnit" />
     </history-entry>
@@ -437,6 +434,9 @@
     <history-entry file="ExceptionsExamples_nullPointerExceptionExpected - 2018.07.02 at 13h 10m 08s.xml">
       <configuration name="ExceptionsExamples.nullPointerExceptionExpected" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ExceptionsExamples_tryCatchFinallyNullPointerException - 2018.07.02 at 13h 26m 54s.xml">
+      <configuration name="ExceptionsExamples.tryCatchFinallyNullPointerException" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -450,12 +450,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.27201784" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32917705" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917705" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32998884" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32998884" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19384836" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19384836" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -941,8 +941,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/Exceptions/ExceptionsExamples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="77" column="17" lean-forward="true" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
+        <state relative-caret-position="461">
+          <caret line="122" column="9" lean-forward="true" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
