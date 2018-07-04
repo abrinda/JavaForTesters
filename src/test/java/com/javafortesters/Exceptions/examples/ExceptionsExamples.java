@@ -1,4 +1,4 @@
-package com.javafortesters.Exceptions;
+package com.javafortesters.Exceptions.examples;
 
 import com.javafortesters.domainentities.User;
 import org.junit.Test;

@@ -1,10 +1,11 @@
 package com.javafortesters.domainentities;
 
+import com.javafortesters.domainobject.TestAppEnv;
+
 public class User {
 
     public String username;
     public String password;
-
 
     public String getUsername(){
         return username;
@@ -26,5 +27,13 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getUrl(){
+        return TestAppEnv.getUrl();
+    }
+
+    public String getPermission(){
+        return "Normal";
     }
 }

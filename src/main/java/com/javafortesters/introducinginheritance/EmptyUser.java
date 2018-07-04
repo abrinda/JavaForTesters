@@ -1,4 +1,6 @@
 package com.javafortesters.introducinginheritance;
 
-public class EmptyUser {
+import com.javafortesters.domainentities.User;
+
+public class EmptyUser extends User {
 }
