@@ -1,9 +1,10 @@
 package com.javafortesters.Exceptions.examples;
 
 import com.javafortesters.domainentities.User;
+import com.javafortesters.introducinginheritance.InvalidPassword;
 import org.junit.Test;
 
-import static junit.framework.TestCase.assertEquals;
+import static junit.framework.TestCase.*;
 
 public class ExceptionsExamples {
 
@@ -69,28 +70,11 @@ public class ExceptionsExamples {
         assertEquals("You are 18 years old", yourAge);
     }
 
-/*
     @Test(expected = NullPointerException.class)
     public void nullPointerExceptionExpected(){
         Integer age = null;
         age.toString();
     }
-
-    public ExceptionsExamples(String username, String password) {
-        this.username = username;
-        setPassword(password);
-    }
-
-    public void setPassword(String password) {
-        if(password.length()<7){
-            throw new IllegalArgumentException("Password must be > 6 char long");
-        }
-        this.password = password;
-    }
-
-    public String password;
-    public String username;
-*/
 
     @Test
     public void tryCatchFinallyNullPointerException(){
@@ -124,4 +108,31 @@ public class ExceptionsExamples {
             System.out.println("3. run code in finally section");
         }
     }
+
+    @Test
+    public void canCreateDefaultUserWithoutHandlingException(){
+        User aUser = new User();
+        assertEquals("username", aUser.getUsername());
+        assertEquals("password", aUser.getPassword());
+    }
+
+    @Test
+    public void haveToCatchIllegalPasswordForParamConstructor(){
+        User aUser = new User("me","wrong");
+        fail("An exception should have been thrown");
+    }
+
+    @Test(expected = InvalidPassword.class)
+    public void constructorUserWithException() throws InvalidPassword{
+        User aUser = new User("username", "p");
+    }
+
+    @Test
+    public void createUserWithInvalidPasswordExceptionMessage(){
+        User aUser;
+
+        aUser = new User("username", "p");
+        fail("An invalid password exception has been thrown");
+    }
+
 }

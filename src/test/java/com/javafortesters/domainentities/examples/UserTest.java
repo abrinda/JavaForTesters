@@ -1,6 +1,7 @@
 package com.javafortesters.domainentities.examples;
 
 import com.javafortesters.domainentities.User;
+import com.javafortesters.introducinginheritance.InvalidPassword;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -44,7 +45,7 @@ public class UserTest {
     }
 
     @Test
-    public void canSetPasswordAfterContructed(){
+    public void canSetPasswordAfterContructed() throws InvalidPassword {
         User user = new User();
 
         user.setPassword("pazzw0rd");

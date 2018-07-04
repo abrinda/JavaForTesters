@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ExceptionsExamples.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ExceptionsExamples.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/Exceptions/examples/ExceptionsExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1815">
-              <caret line="124" column="9" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
+            <state relative-caret-position="341">
+              <caret line="134" column="62" selection-start-line="134" selection-start-column="62" selection-end-line="134" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -24,62 +24,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmptyUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/introducinginheritance/EmptyUser.java">
+      <file leaf-file-name="InvalidPassword.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/introducinginheritance/InvalidPassword.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InheritanceExamples.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/introducinginheritance/examples/InheritanceExamples.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/introducinginheritance/AdminUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding>
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReadOnlyUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/introducinginheritance/ReadOnlyUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnEmptyClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/basicsofjavarevisited/AnEmptyClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -87,21 +40,20 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state relative-caret-position="311">
+              <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#240#241#0" expanded="true" />
                 <element signature="e#271#272#0" expanded="true" />
                 <element signature="e#305#306#0" expanded="true" />
                 <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#619#620#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#688#689#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#736#737#0" expanded="true" />
+                <element signature="e#778#779#0" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,10 +78,12 @@
         <option value="$PROJECT_DIR$/src/test/java/com/javafortesters/collections/examples/CollectionsExamples.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/javafortesters/Exceptions/ExceptionsExamples.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javafortesters/introducinginheritance/EmptyUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javafortesters/introducinginheritance/AdminUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javafortesters/introducinginheritance/ReadOnlyUser.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/javafortesters/introducinginheritance/examples/InheritanceExamples.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javafortesters/introducinginheritance/InvalidPassword.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/User.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/javafortesters/Exceptions/examples/ExceptionsExamples.java" />
       </list>
     </option>
   </component>
@@ -244,6 +198,15 @@
               <item name="javafortesters" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WorkSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorkSpace" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javafortesters" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -272,26 +235,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.InheritanceExamples.aReadOnlyUserHasLimitedPermissions">
+  <component name="RunManager" selected="JUnit.ExceptionsExamples">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="InheritanceExamples.aReadOnlyUserHasLimitedPermissions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExceptionsExamples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaForTesters" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javafortesters.introducinginheritance.examples.*" />
+          <option name="PATTERN" value="com.javafortesters.Exceptions.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.javafortesters.introducinginheritance.examples" />
-      <option name="MAIN_CLASS_NAME" value="com.javafortesters.introducinginheritance.examples.InheritanceExamples" />
-      <option name="METHOD_NAME" value="aReadOnlyUserHasLimitedPermissions" />
+      <option name="PACKAGE_NAME" value="com.javafortesters.Exceptions.examples" />
+      <option name="MAIN_CLASS_NAME" value="com.javafortesters.Exceptions.examples.ExceptionsExamples" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ExceptionsExamples.constructorUserWithException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaForTesters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javafortesters.Exceptions.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.javafortesters.Exceptions.examples" />
+      <option name="MAIN_CLASS_NAME" value="com.javafortesters.Exceptions.examples.ExceptionsExamples" />
+      <option name="METHOD_NAME" value="constructorUserWithException" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -302,19 +288,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="InheritanceExamples.aUserHasNormalPermissions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExceptionsExamples.createUserWithInvalidPasswordExceptionMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaForTesters" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javafortesters.introducinginheritance.examples.*" />
+          <option name="PATTERN" value="com.javafortesters.Exceptions.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.javafortesters.introducinginheritance.examples" />
-      <option name="MAIN_CLASS_NAME" value="com.javafortesters.introducinginheritance.examples.InheritanceExamples" />
-      <option name="METHOD_NAME" value="aUserHasNormalPermissions" />
+      <option name="PACKAGE_NAME" value="com.javafortesters.Exceptions.examples" />
+      <option name="MAIN_CLASS_NAME" value="com.javafortesters.Exceptions.examples.ExceptionsExamples" />
+      <option name="METHOD_NAME" value="createUserWithInvalidPasswordExceptionMessage" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -325,19 +311,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="InheritanceExamples.anAdminUserDefaultConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExceptionsExamples.haveToCatchIllegalPasswordForParamConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaForTesters" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javafortesters.introducinginheritance.examples.*" />
+          <option name="PATTERN" value="com.javafortesters.Exceptions.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.javafortesters.introducinginheritance.examples" />
-      <option name="MAIN_CLASS_NAME" value="com.javafortesters.introducinginheritance.examples.InheritanceExamples" />
-      <option name="METHOD_NAME" value="anAdminUserDefaultConstructor" />
+      <option name="PACKAGE_NAME" value="com.javafortesters.Exceptions.examples" />
+      <option name="MAIN_CLASS_NAME" value="com.javafortesters.Exceptions.examples.ExceptionsExamples" />
+      <option name="METHOD_NAME" value="haveToCatchIllegalPasswordForParamConstructor" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -348,42 +334,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="InheritanceExamples.anAdminUserHasElevatedPermissions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserTest.canSetPasswordAfterContructed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaForTesters" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javafortesters.introducinginheritance.examples.*" />
+          <option name="PATTERN" value="com.javafortesters.domainentities.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.javafortesters.introducinginheritance.examples" />
-      <option name="MAIN_CLASS_NAME" value="com.javafortesters.introducinginheritance.examples.InheritanceExamples" />
-      <option name="METHOD_NAME" value="anAdminUserHasElevatedPermissions" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="InheritanceExamples.emptyUserExamplesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaForTesters" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javafortesters.introducinginheritance.examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.javafortesters.introducinginheritance.examples" />
-      <option name="MAIN_CLASS_NAME" value="com.javafortesters.introducinginheritance.examples.InheritanceExamples" />
-      <option name="METHOD_NAME" value="emptyUserExamplesTest" />
+      <option name="PACKAGE_NAME" value="com.javafortesters.domainentities.examples" />
+      <option name="MAIN_CLASS_NAME" value="com.javafortesters.domainentities.examples.UserTest" />
+      <option name="METHOD_NAME" value="canSetPasswordAfterContructed" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -446,19 +409,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.InheritanceExamples.emptyUserExamplesTest" />
-      <item itemvalue="JUnit.InheritanceExamples.aUserHasNormalPermissions" />
-      <item itemvalue="JUnit.InheritanceExamples.anAdminUserDefaultConstructor" />
-      <item itemvalue="JUnit.InheritanceExamples.anAdminUserHasElevatedPermissions" />
-      <item itemvalue="JUnit.InheritanceExamples.aReadOnlyUserHasLimitedPermissions" />
+      <item itemvalue="JUnit.ExceptionsExamples.constructorUserWithException" />
+      <item itemvalue="JUnit.ExceptionsExamples.haveToCatchIllegalPasswordForParamConstructor" />
+      <item itemvalue="JUnit.ExceptionsExamples.createUserWithInvalidPasswordExceptionMessage" />
+      <item itemvalue="JUnit.UserTest.canSetPasswordAfterContructed" />
+      <item itemvalue="JUnit.ExceptionsExamples" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InheritanceExamples.aReadOnlyUserHasLimitedPermissions" />
-        <item itemvalue="JUnit.InheritanceExamples.anAdminUserHasElevatedPermissions" />
-        <item itemvalue="JUnit.InheritanceExamples.anAdminUserDefaultConstructor" />
-        <item itemvalue="JUnit.InheritanceExamples.aUserHasNormalPermissions" />
-        <item itemvalue="JUnit.InheritanceExamples.emptyUserExamplesTest" />
+        <item itemvalue="JUnit.ExceptionsExamples" />
+        <item itemvalue="JUnit.UserTest.canSetPasswordAfterContructed" />
+        <item itemvalue="JUnit.ExceptionsExamples.createUserWithInvalidPasswordExceptionMessage" />
+        <item itemvalue="JUnit.ExceptionsExamples.haveToCatchIllegalPasswordForParamConstructor" />
+        <item itemvalue="JUnit.ExceptionsExamples.constructorUserWithException" />
       </list>
     </recent_temporary>
   </component>
@@ -476,9 +439,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExceptionsExamples_exampleTryCatchFinally - 2018.07.02 at 13h 35m 50s.xml">
-      <configuration name="ExceptionsExamples.exampleTryCatchFinally" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ExceptionsExamples_exampleTryCatchFinally - 2018.07.02 at 13h 36m 18s.xml">
       <configuration name="ExceptionsExamples.exampleTryCatchFinally" configurationId="JUnit" />
     </history-entry>
@@ -506,30 +466,34 @@
     <history-entry file="InheritanceExamples_aReadOnlyUserHasLimitedPermissions - 2018.07.04 at 14h 10m 32s.xml">
       <configuration name="InheritanceExamples.aReadOnlyUserHasLimitedPermissions" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ExceptionsExamples_canCreateDefaultUserWithoutHandlingException - 2018.07.04 at 15h 55m 31s.xml">
+      <configuration name="ExceptionsExamples.canCreateDefaultUserWithoutHandlingException" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32917705" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32917705" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.27201784" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917705" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32998884" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.27201784" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917705" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32998884" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32998884" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19670959" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -547,16 +511,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/arrays/examples/ArraysExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/collections/examples/CollectionsExamples.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -586,18 +540,17 @@
         <state relative-caret-position="390">
           <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#240#241#0" expanded="true" />
             <element signature="e#271#272#0" expanded="true" />
             <element signature="e#305#306#0" expanded="true" />
             <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -667,18 +620,17 @@
         <state relative-caret-position="390">
           <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#240#241#0" expanded="true" />
             <element signature="e#271#272#0" expanded="true" />
             <element signature="e#305#306#0" expanded="true" />
             <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -723,18 +675,17 @@
         <state relative-caret-position="390">
           <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#240#241#0" expanded="true" />
             <element signature="e#271#272#0" expanded="true" />
             <element signature="e#305#306#0" expanded="true" />
             <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -804,18 +755,17 @@
         <state relative-caret-position="390">
           <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#240#241#0" expanded="true" />
             <element signature="e#271#272#0" expanded="true" />
             <element signature="e#305#306#0" expanded="true" />
             <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -860,18 +810,17 @@
         <state relative-caret-position="390">
           <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#240#241#0" expanded="true" />
             <element signature="e#271#272#0" expanded="true" />
             <element signature="e#305#306#0" expanded="true" />
             <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -971,44 +920,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/Exceptions/examples/ExceptionsExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="124" column="9" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/introducinginheritance/EmptyUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-          <folding>
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/introducinginheritance/AdminUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1035,10 +946,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/introducinginheritance/EmptyUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/introducinginheritance/examples/InheritanceExamples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        <state relative-caret-position="378">
+          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/introducinginheritance/InvalidPassword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/Exceptions/examples/ExceptionsExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="134" column="62" selection-start-line="134" selection-start-column="62" selection-end-line="134" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
